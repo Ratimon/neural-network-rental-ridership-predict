@@ -1,4 +1,4 @@
-# Build neural network to predict daily bike rental ridership.
+# Build Neural Network to Predict Daily Bike rental ridership.
 
 <p align="center">
 <img src="assets/nd101.png" width="500">
@@ -16,13 +16,13 @@
   $ activate dlnd
   ```
 
-1. Ensure you have numpy, matplotlib, pandas, and jupyter notebook installed by doing the following:
+2. Ensure you have numpy, matplotlib, pandas, and jupyter notebook installed by doing the following:
 
 ```
 $ conda install numpy matplotlib pandas jupyter notebook
 ```
 
-2. Run the following to open up the notebook:
+3. Run the following to open up the notebook:
 
 ```
 $ jupyter notebook dlnd-your-first-neural-network.ipynb
@@ -61,3 +61,5 @@ Set the hyperparameters for the network. The strategy here is to choose hyperpar
 <p align="center">
 <img src="assets/prediction.png" width="500">
 </p>
+
+It can be seen that the network works very well only between Dec 11 and Dec20 , as well as the Training loss is 0.104 and Validation loss is 0.212
