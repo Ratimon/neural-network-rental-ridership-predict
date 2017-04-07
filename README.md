@@ -46,18 +46,21 @@ Below is a plot showing the number of bike riders over the first 10 days or so i
 * Implement the forward pass in the run method.
 
 
-
-## Training the Network
+## The Loss Function after Training the Network
 Set the hyperparameters for the network. The strategy here is to choose hyperparameters ,including ### Set the
-### the hyperparameters
+### hyperparameters I set
 * iterations = 10000
 * learning_rate = 0.1
 * hidden_nodes = 5
 * output_nodes = 1
 
+Then , we get
+
 <p align="center">
 <img src="assets/loss_function.png" width="500">
 </p>
+
+At the final progress of 100 %, the Training loss is 0.104 and Validation loss is 0.212.
 
 ## The Prediction
 
@@ -65,4 +68,4 @@ Set the hyperparameters for the network. The strategy here is to choose hyperpar
 <img src="assets/prediction.png" width="500">
 </p>
 
-It can be seen that the network works very well only between Dec 11 and Dec20 , as well as the Training loss is 0.104 and Validation loss is 0.212
+It can be seen that the network works very well only between Dec 11 and Dec20.
