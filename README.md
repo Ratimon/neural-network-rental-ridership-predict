@@ -1,8 +1,32 @@
 # Build neural network to predict daily bike rental ridership.
 
 <p align="center">
-<img src="assets/neural_network.png" width="500">
+<img src="assets/nd101.png" width="500">
 </p>
+
+## Installation
+
+1. Enter your new environment:
+  * Mac/Linux:
+  ```
+  $  source activate dlnd
+  ```
+  * Windows:
+  ```
+  $ activate dlnd
+  ```
+
+1. Ensure you have numpy, matplotlib, pandas, and jupyter notebook installed by doing the following:
+
+```
+$ conda install numpy matplotlib pandas jupyter notebook
+```
+
+2. Run the following to open up the notebook:
+
+```
+$ jupyter notebook dlnd-your-first-neural-network.ipynb
+```
 
 ## Data Set
 This dataset has the number of riders for each hour of each day from January 1 2011 to December 31 2012. The number of riders is split between casual and registered, summed up in the cnt column. You can see the first few rows of the data above.
@@ -21,7 +45,8 @@ Below is a plot showing the number of bike riders over the first 10 days or so i
 
 
 ## Training the Network
-Set the hyperparameters for the network. The strategy here is to choose hyperparameters ,including ### Set the ### ### the hyperparameters  ###
+Set the hyperparameters for the network. The strategy here is to choose hyperparameters ,including ### Set the
+### the hyperparameters
 * iterations = 10000
 * learning_rate = 0.1
 * hidden_nodes = 5
