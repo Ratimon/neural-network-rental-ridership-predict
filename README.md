@@ -28,6 +28,16 @@ $ conda install numpy matplotlib pandas jupyter notebook
 $ jupyter notebook dlnd-your-first-neural-network.ipynb
 ```
 
+4. You can deactivate your environment by
+  * Mac/Linux:
+  ```
+  $  source deactivate
+  ```
+  * Windows:
+  ```
+  $ deactivate
+  ```
+
 ## Data Set
 This dataset has the number of riders for each hour of each day from January 1 2011 to December 31 2012. The number of riders is split between casual and registered, summed up in the cnt column. You can see the first few rows of the data above.
 Below is a plot showing the number of bike riders over the first 10 days or so in the data set. (Some days don't have exactly 24 entries in the data set, so it's not exactly 10 days.) You can see the hourly rentals here. This data is pretty complicated! The weekends have lower over all ridership and there are spikes when people are biking to and from work during the week. Looking at the data above, we also have information about temperature, humidity, and windspeed, all of these likely affecting the number of riders. You'll be trying to capture all this with your model.
@@ -37,13 +47,14 @@ Below is a plot showing the number of bike riders over the first 10 days or so i
 </p>
 
 ## Model Implementations
-<p align="center">
-<img src="assets/neural_network.png" width="500">
-</p>
 * Implement the sigmoid function to use as the activation function. Set self.activation_function in __init__ to your sigmoid function.
 * Implement the forward pass in the train method.
 * Implement the backpropagation algorithm in the train method,  including calculating the output error.
 * Implement the forward pass in the run method.
+
+<p align="center">
+<img src="assets/neural_network.png" width="500">
+</p>
 
 
 ## The Loss Function after Training the Network
