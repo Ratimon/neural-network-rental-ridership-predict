@@ -61,9 +61,10 @@ Below is a plot showing the number of bike riders over the first 10 days or so i
 Set the hyperparameters for the network. The strategy here is to choose hyperparameters ,including ### Set the
 ### hyperparameters I set
 * iterations = 10000
-* learning_rate = 0.1
-* hidden_nodes = 5
+* learning_rate = 0.04
+* hidden_nodes = 9
 * output_nodes = 1
+
 
 Then , we get
 
