@@ -72,7 +72,7 @@ Then , we get
 <img src="assets/loss_function.png" width="500">
 </p>
 
-At the final progress of 100 %, the Training loss is 0.104 and Validation loss is 0.212.
+At the final progress of 100 %, the Training loss is 0.254 and Validation loss is 0.443.
 
 ## The Prediction
 
