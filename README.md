@@ -37,6 +37,9 @@ Below is a plot showing the number of bike riders over the first 10 days or so i
 </p>
 
 ## Model Implementations
+<p align="center">
+<img src="assets/neural_network.png" width="500">
+</p>
 * Implement the sigmoid function to use as the activation function. Set self.activation_function in __init__ to your sigmoid function.
 * Implement the forward pass in the train method.
 * Implement the backpropagation algorithm in the train method,  including calculating the output error.
